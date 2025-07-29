@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* .....nav bar start here...... */
+
 
 .navbar{
     width: 100%;
@@ -31,17 +33,17 @@
     padding-left: 10px;
 }
 
+.navbar nav ul li a:hover{
+    color: rgb(155, 155, 159);
+}
+
 .navbar nav ul li i{
     color: white;
     font-size: 20px;
 }
 
 
-/* 
-.main1{
-    width: 100%;
-    height: 100vh;
-} */
+    /*......... Here start section 1..... */
 
 #firstpage{
     width: 100%;
@@ -51,11 +53,171 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+     display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
 
 }
+
+#firstpage div{
+    display: flex;
+    gap: 10px;
+}
+#firstpage i{
+    margin-top: 300px;
+    font-size: 35px;
+    color: white;
+   
+    
+}
+#firstpage img{
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+
+    /* ......Here Secondpage start ...... */
+
 
 #secondpage{
     width: 100%;
     height: 100vh;
-    background-color: black;
+    background-image: url(bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+
 }
+  
+  #secondpage .second_1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-items: center;
+    align-items:center;
+    flex-direction: column;
+    margin-top: 250px;
+
+  }
+
+   #secondpage .second_1 div img{
+    width: 200px;
+    height: 200px;
+   }
+
+   #secondpage .second_1 div h3{
+    width: 100px;
+    height: 100px;
+    color: white;
+   }
+
+    #secondpage .second_1 div p{
+        font-size: 20px;
+    }
+
+
+
+#secondpage .second_1 p{
+    color: white;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#secondpage .second_1 .second_2{
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+}
+#secondpage .second_1 .second_2 div{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+}
+
+
+
+
+
+
+/* .....third page start here...... */
+
+
+#thirdpage{
+    width: 100%;
+    
+}
+
+
+#thirdpage .third_1{
+    display:flex;
+    width: 100%;
+    /* height: 250px; */
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 100px;
+   
+}
+
+
+#thirdpage .third_0{
+    width: 100%;
+    /* height: 300px; */
+    display: flex;
+    justify-items: centre;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;  
+    margin-bottom: 50px; 
+    gap: 50px;
+    
+}
+
+#thirdpage .third_0 h3{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+
+
+
+/* ....... Here is the forth page ...... */
+
+#forthpage{
+    width: 100%;
+    height: 100vh;
+    background-image: url(bg4.jpg);
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#forthpage div{
+    width:50%;
+    height:60%;
+    background-color:white;
+    border: 2px black;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 125px;
+    padding-top: 80px;
+    flex-wrap: wrap;
+}
+    
