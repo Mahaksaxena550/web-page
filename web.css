@@ -44,6 +44,7 @@
 }
 
 
+
     /*......... Here start section 1..... */
 
 #firstpage{
@@ -77,6 +78,16 @@
     width: 300px;
     height: 300px;
 }
+
+.comment{
+    position: fixed;
+    font-size: 100px;
+    color: white;
+    margin-bottom: 10px;
+    margin-right: -1350px;
+    
+}
+
 
 
     /* ......Here Secondpage start ...... */
@@ -166,7 +177,17 @@
     flex-wrap: wrap;
     margin-top: 10px;
     margin-bottom: 10px;
+     
    
+}
+
+#thirdpage .third_1 div :hover{
+      box-shadow: 3px 3px 10px rgb(0, 0, 0);
+     /* transform: rotate(135deg);
+     transition: transfrom 2s ease 0s; */
+     cursor: pointer;
+
+     
 }
 
 
@@ -211,7 +232,7 @@
 }
 
 #forthpage div{
-    width:50%;
+    width:40%;
     height:60%;
     background-color:white;
     
@@ -223,6 +244,14 @@
     margin-top: 125px;
     padding-top: 80px;
     flex-wrap: wrap;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#forthpage div p{
+     margin-right: 20px;
+    margin-left: 20px;
+
 }
 
 #forthpage div h3{
@@ -250,7 +279,7 @@
 #sixthpage{
 
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -261,4 +290,41 @@
     flex-direction: column;
     background-image: url(bg4.jpg);
 
+}
+
+#sixthpage img{
+    margin-top: 100px;
+
+}
+#sixthpage img:hover{
+   
+     transform: perspective(50px) rotatex(2deg) translateY(25px);
+   
+    
+}
+
+
+#sixthpage .sixth_1{
+    width: 40%;
+    height: 80%;
+    background-color: rgb(243, 247, 223);
+ 
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    /* flex-direction: column; */
+    gap: 10px;
+    
+}
+
+#sixthpage .sixth_1 div{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 10px;
+}
+
+#sixthpage .sixth_1 form{
+   width: 80px;
+   margin-left: 120px;
 }
