@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: "Josefin Sans", sans-serif;
+    scroll-behavior: smooth;
 }
 
 /* .....nav bar start here...... */
@@ -17,6 +18,7 @@
 
     background-color: rgb(47,46,46);
     position: fixed;
+    box-shadow: 2px 2px 5px white;
 
 }
 
@@ -129,8 +131,9 @@
 
    #secondpage .second_1 div h3{
     width: 100px;
-    height: 100px;
+    height: 40px;
     color: white;
+
    }
 
     #secondpage .second_1 div p{
@@ -155,6 +158,22 @@
     align-items: center;
     justify-items: center;
     flex-direction: column;
+}
+
+#secondpage .second_1 .second_2 .paint img{
+    width: 160px;
+    height: 160px;
+    /* padding-bottom: 10px; */
+    /* padding-top: 15px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    
+}
+ 
+#secondpage .second_1 .second_2 p{
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 
@@ -298,67 +317,85 @@
     justify-items: center;
     flex-direction: column;
     background-image: url(bg4.jpg);
+    padding-bottom: 200px;
 
 }
 
-#sixthpage img{
+#sixthpage .img_1 img{
     margin-top: 100px;
 
 }
-#sixthpage img:hover{
+#sixthpage .img_1 img:hover{
    
      transform: perspective(50px) rotatex(2deg) translateY(25px);
    
     
 }
 
-
 #sixthpage .sixth_1{
     width: 40%;
-    height: 80%;
-    background-color: rgba(255, 255, 255, 0.415);
- 
+    /* height: 500px; */
+    background-color: white;
     display: flex;
+    /* justify-content: center; */
     align-items: center;
-    justify-items: center;
-    /* flex-direction: column; */
-    gap: 10px;
-    margin-bottom: 70px;
+    flex-direction: column;
+   padding-top: 50px;
+   padding-bottom: 30px;
+   /* padding-left: 20px; */
+}
+
+#sixthpage .sixth_1 .sixth_2{
+    width: 300px;
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+   
+}
+#sixthpage .sixth_1 .sixth_2 div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /* padding-left: -50px; */
     
 }
 
-#sixthpage .sixth_1 div{
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    margin-top: 10px;
-    margin-left: 20px;
-    /* margin-bottom: 100px; */
-}
-
-#sixthpage .sixth_1 form{
+#sixthpage .sixth_1 .sixth_2 form{
    width: 80px;
-   margin-left: 120px;
+   margin-left: -10px;
    margin-top: 50px;
    margin-bottom: 40px;
    
+   
 }
 
-#sixthpage .sixth_1 form input{
+
+#sixthpage .sixth_1 .sixth_2 form input{
     width: 200px;
     height: 30px;
 }
 
-#sixthpage .sixth_1 form textarea{
+#sixthpage .sixth_1 .sixth_2 form textarea{
     width: 200px;
     height: 50px;
 }
-#sixthpage .sixth_1 form button{
+#sixthpage .sixth_1 .sixth_2 form button{
     width: 200px;
     height: 30px;
     background-color:rgb(47,46,46) ;
     color: white;
 }
+
+/* .img_2{
+    width: 100px;
+    height: 100px;
+} */
+
+
+
+
+
+/* ...........footer start here......... */
 
 #footer_1{
     width: 100%;
