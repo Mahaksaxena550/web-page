@@ -350,13 +350,14 @@
     display: flex;
    justify-content: space-between;
     align-items: center;
+    margin: 0px;
    
 }
 #sixthpage .sixth_1 .sixth_2 div{
     display: flex;
     flex-direction: column;
     gap: 30px;
-    /* padding-left: -50px; */
+    margin-left: -90px;
     
 }
 
@@ -422,3 +423,6 @@
 
 
 
+@media(max-width:430px){
+
+}
